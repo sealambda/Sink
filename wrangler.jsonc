@@ -12,6 +12,9 @@
     "nodejs_compat"
   ],
   "keep_vars": true,
+  // Served only on its custom domain; wrangler re-enables workers.dev on every deploy unless disabled here.
+  "workers_dev": false,
+  "preview_urls": false,
   "upload_source_maps": true,
   "observability": {
     "logs": {
